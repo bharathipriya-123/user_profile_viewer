@@ -1,0 +1,26 @@
+.profile {
+  border: 3px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  display: inline-block;
+  text-align: center;
+  margin-top:150px;
+}
+
+.profile-avatar {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.profile-name {
+  font-size: 34px;
+  color:blue;
+  margin: 0;
+}
+
+.profile-bio {
+  font-size: 26px;
+  color:darkcyan
+}
