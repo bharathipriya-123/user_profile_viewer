@@ -1,26 +1,127 @@
-.profile {
-  border: 3px solid #ccc;
-  padding: 20px;
-  border-radius: 8px;
-  display: inline-block;
-  text-align: center;
-  margin-top:150px;
-}
 
-.profile-avatar {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  margin-bottom: 10px;
-}
-
-.profile-name {
-  font-size: 34px;
-  color:blue;
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  /* background-color: #f9f9f9; */
+  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Kym-zoT_dGc5Vodz6aK-G7i9lEReZ9rYRg&s');
+  background-repeat: no-repeat;
+ background-size: cover; */
 }
 
-.profile-bio {
-  font-size: 26px;
-  color:darkcyan
+/* Form styles */
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.userId {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.searchbtn {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.searchbtn:hover {
+  background-color: #0056b3;
+}
+
+/* Profile not found  */
+.profileNF {
+  text-align: center;
+  /* border:1px solid black; */
+ /* background-image: url("https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ="); */
+  border-radius:15px;
+  width:500px;
+  height:400px;
+  margin-top: 50px;
+  margin-left: 480px;
+}
+
+.profileNF h1 {
+  color: #ff4d4d;
+  font-size: 24px;
+}
+
+.profileNF h3 {
+  color: #666;
+  font-size: 18px;
+}
+
+.retry {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.retry:hover {
+  background-color: #0056b3;
+}
+
+/* User details  */
+.userDetails {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.userDetails h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.userDetails p {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+}
+
+/* Spinner styles */
+.spinner {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  margin-top: 50px;
+}
+.image1
+{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+
 }
