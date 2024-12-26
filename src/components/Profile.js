@@ -143,7 +143,7 @@ const Profile = () => {
         userData && (
           <div className="userDetails">
             <h2>User Profile Viewer</h2>
-            <img src={userData.avatar} className="avatar" />
+            <img src={userData.avatar} className="avatar" alt='avatar'/>
             <p>{userData.name}</p>
             <p>{userData.email}</p>
             <p>{userData.phoneNo}</p>
